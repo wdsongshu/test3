@@ -1,7 +1,7 @@
 function calculate_median(array) {
-  //请勿改动函数名
     var evenArray = [];
     var printNum ;
+
     array.forEach(function(arrNum){
        if(arrNum%2 === 0)
        {
@@ -15,7 +15,7 @@ function calculate_median(array) {
 
         return printNum;
     }else{
-        printNum = evenArray[(evenArray.length + 1)/2 -1];
+        printNum = evenArray[(evenArray.length +1 )/2 -1 ];
 
         return printNum;
     }
